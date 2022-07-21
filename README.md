@@ -31,4 +31,9 @@ Since the application can now calculate the _Wage_ of the Fintech specialist I w
 
 # Step Three Inspect the Transaction
 
-Now it's time to put it all together and test the Fintech Finder application with your newly integrated Ethereum wallet. You will send a test transaction by using the application’s web interface, and then look up the resulting transaction in Ganache.
+Now it's time to put it all together and test the Fintech Finder application with your newly integrated Ethereum wallet. You will send a test transaction by using the application’s web interface
+
+- From your terminal, navigate to the folder that contains your .env file and the fintech_finder.py and crypto_wallet.py files.
+- To launch the Streamlit application, type streamlit run fintech_finder.py in the terminal.
+- On the resulting webpage, select a candidate that you would like to hire from the appropriate drop-down menu. Then, enter the number of hours that you would like to hire them for.
+- Click the Send Transaction button to sign and send the transaction with your Ethereum account information.
