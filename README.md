@@ -28,7 +28,7 @@ The next step which I used the _Steamlit_ library for user interface in the _fin
 I will write code that uses the calculated wage value to send a transaction that pays the worker. This code should allow the Fintech Finder customer to authorize the transaction with their _digital signature_. For the purpose of testing out this application, I will use your own **Ethereum account** information from _Ganache_  as the customer account information.
 
 Since the application can now calculate the _Wage_ of the Fintech specialist I write the code that will allow a customer (Myself) to send an Ethereum blockchain transaction that pays the hired candidate and return a _validated Hash_.
-
+! [alt text](
 # Step Three Inspect the Transaction
 
 Now it's time to put it all together and test the Fintech Finder application with your newly integrated Ethereum wallet. You will send a test transaction by using the application’s web interface
